@@ -29,7 +29,7 @@ export default function Home() {
           ThumbMarkJS
         </p>
         <p>
-          Your fingerprint is: <strong style={{"color": "#00FFFF"}}>{fingerprint}</strong>
+          Your fingerprint is: <strong style={{"color": "red"}}>{fingerprint}</strong>
         </p>
         <p>
           Open dev tools to view the logged result of calling the
