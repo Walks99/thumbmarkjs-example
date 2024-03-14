@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .fingerprintInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    font-size: 1.2rem;
+    p {
+      &:first-child {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    .fingerprintInfoContainer {
+      width: 90%;
+      height: 20%;
+      justify-content: space-around;
+      font-size: 1.2rem;
+      p {
+        &:first-child {
+          font-size: 1.6rem;
+        }
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+  }
+}
